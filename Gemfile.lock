@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actioncable (5.0.0.1)
       actionpack (= 5.0.0.1)
@@ -100,6 +101,31 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 5.0.0.1)
       sprockets-rails (>= 2.0.0)
+    rails-assets-Caret.js (0.2.2)
+      rails-assets-jquery (>= 1.7.0)
+    rails-assets-accounting (0.3.2)
+    rails-assets-bootstrap (3.3.7)
+      rails-assets-jquery (>= 1.9.1, < 4)
+    rails-assets-bootstrap-daterangepicker (2.1.24)
+      rails-assets-jquery (>= 1.9.1, < 3)
+      rails-assets-moment (>= 2.9.0)
+    rails-assets-classnames (2.2.5)
+    rails-assets-dragula (3.7.2)
+    rails-assets-fastclick (1.0.6)
+    rails-assets-jquery (2.2.4)
+    rails-assets-jquery.atwho (1.5.1)
+      rails-assets-Caret.js (~> 0.2.2)
+      rails-assets-jquery (>= 1.7.0)
+    rails-assets-jquery.easing (1.3.1)
+      rails-assets-jquery (>= 1.2.1)
+    rails-assets-microevent (1.1.1)
+    rails-assets-moment (2.15.0)
+    rails-assets-noty (2.3.8)
+    rails-assets-papaparse (4.1.2)
+    rails-assets-perfect-scrollbar (0.6.12)
+    rails-assets-react-bootstrap-table (2.0.7)
+    rails-assets-sweetalert (1.1.3)
+    rails-assets-underscore (1.8.3)
     rails-dom-testing (2.0.1)
       activesupport (>= 4.2.0, < 6.0)
       nokogiri (~> 1.6.0)
@@ -165,6 +191,22 @@ DEPENDENCIES
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
+  rails-assets-accounting!
+  rails-assets-bootstrap!
+  rails-assets-bootstrap-daterangepicker!
+  rails-assets-classnames!
+  rails-assets-dragula!
+  rails-assets-fastclick!
+  rails-assets-jquery.atwho!
+  rails-assets-jquery.easing!
+  rails-assets-microevent!
+  rails-assets-moment!
+  rails-assets-noty!
+  rails-assets-papaparse!
+  rails-assets-perfect-scrollbar!
+  rails-assets-react-bootstrap-table!
+  rails-assets-sweetalert!
+  rails-assets-underscore!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

@@ -30,6 +30,24 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-moment'
+  gem 'rails-assets-underscore'
+  gem 'rails-assets-accounting'
+  gem 'rails-assets-perfect-scrollbar'
+  gem 'rails-assets-jquery.easing'
+  gem 'rails-assets-fastclick'
+  gem 'rails-assets-dragula'
+  gem 'rails-assets-react-bootstrap-table'
+  gem 'rails-assets-bootstrap-daterangepicker'
+  gem 'rails-assets-classnames'
+  gem 'rails-assets-sweetalert'
+  gem 'rails-assets-microevent'
+  gem 'rails-assets-jquery.atwho'
+  gem 'rails-assets-papaparse'
+  gem 'rails-assets-noty'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
